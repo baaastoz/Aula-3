@@ -1,0 +1,47 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+/* Estilo para o menu*/
+.menu{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px 0;
+    border-bottom: 3px solid cadetblue;
+}
+
+/*estilo para o logo tipo*/
+.logotipo{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 120px;
+    float: inline-start;
+    margin-top: -2.5%;
+
+}
+
+/*Estilo para os itens do menu */
+.menu-item{
+    display: inline-block;
+    margin: 0 20px;
+    color: black;
+}
+
+/*Estilo para ps links do menu*/
+.menu-item a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+.menu-item:hover {
+    background-color: whitesmoke;
+}
+
+/* Estilo para os links do menu quando passar o mouse por cima*/
+.menu-item:hover a{
+    color: cadetblue;
+}
